@@ -5,8 +5,4 @@
     <DxExtendStartupHost>False</DxExtendStartupHost>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Components\" />
-  </ItemGroup>
-
 </Project>
