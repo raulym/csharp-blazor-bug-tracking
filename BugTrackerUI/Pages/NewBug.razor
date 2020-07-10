@@ -1,7 +1,5 @@
 ﻿@page "/new-bug"
 
-@using DevExpress.Blazor
-
 <h3>Add New Bug</h3>
 
 <EditForm Model="AddBug">
@@ -12,11 +10,6 @@
     <InputNumber @bind-Value="@AddBug.Priority" placeHolder="Enter Priority"
                  ParsingErrorMessage="Must be an integer value">
     </InputNumber>
-
-    <DxTextBox @bind-Text="@AddBug.Reporter" NullText="Enter Reporter">
-    </DxTextBox>
-    <DxSpinEdit @bind-Value="@AddBug.System" ShowSpinButtons="false"
-                NullText="Enter System"></DxSpinEdit>
 
     <button type="submit">Add Bug</button>
 </EditForm>
