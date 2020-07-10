@@ -15,5 +15,9 @@ namespace BugTrackerUI
         public string Description { get; set; }
 
         public int Priority { get; set; }
+
+        public string Reporter { get; set; }
+
+        public int System { get; set; }
     }
 }
