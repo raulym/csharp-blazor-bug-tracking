@@ -8,8 +8,4 @@
     <Folder Include="Components\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="DevExpress.Blazor" Version="20.1.4" />
-  </ItemGroup>
-
 </Project>
